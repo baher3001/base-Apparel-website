@@ -1,0 +1,157 @@
+.main 
+{
+    overflow: hidden;
+}
+
+.content1
+{
+    position: relative;
+    /*top: 20px;*/   
+    text-align: center;
+  
+}
+
+
+.content1 img
+{
+    position: relative;
+    right: 80px;
+    top: 20px;
+}
+.content1 h1
+{
+    position: relative;
+    top: 120px;
+    right: 30px;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: rgb(8, 3, 3);
+}
+
+
+.content1 h1 span
+{
+    color: rgb(202, 159, 103);
+    font-size: 50px;
+    font-weight: 300;
+}
+.content1 p
+{
+    position: relative;
+    top: 140px;
+    color: rgb(202, 159, 103);
+
+}
+.content1 input
+{
+    position: relative;
+    top: 180px;
+    left: 80px;
+    border-radius: 15px;
+    outline: none;
+    width: 300px;
+    height: 45px;
+
+}
+.content1 .icon
+{
+  
+    position: relative;
+    top: 150px;
+    left: 120px;
+    border: 1px solid red;
+    border-radius: 50%;
+   
+}
+.content1  i
+{
+    position: relative;
+    top: 130px;
+    left: 120px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(167, 18, 18);
+    border-radius: 60%;
+    color: white;
+   padding-top:  20px;
+   padding-right: 10px;
+   padding-left:10px;
+   opacity: .7;
+   cursor: pointer;
+}
+
+@media(max-width:576px)
+{
+    .main
+    {
+        height: 1300px;
+    }
+   .content1
+   {
+       position: relative;
+       top: 650px;
+   }
+   .photo
+   {
+       position: relative;
+       bottom: 405px;
+       margin-top: 0px !important;
+   }
+   .photo img
+   {
+    overflow: hidden;
+
+   }
+
+
+}
+
+@media(max-width:768px)
+{
+    .main
+    {
+        height: 1300px;
+    }
+   .content1
+   {
+       position: relative;
+       top: 690px;
+   }
+   .photo
+   {
+       position: relative;
+       bottom: 405px;
+       left: 20px;
+       margin-top: 0px !important;
+   }
+
+
+}
+
+
+@media(max-width:992px)
+{
+    .main
+    {
+        height: 1300px;
+    }
+   .content1
+   {
+       position: relative;
+       top: 690px;
+   }
+   .photo
+   {
+       position: relative;
+       bottom: 405px;
+       /*left: 40px;*/
+       margin-top: 0px !important;
+   }
+   .photo img
+   {
+       width: 100%;
+       height: 80%;
+   }
+}
